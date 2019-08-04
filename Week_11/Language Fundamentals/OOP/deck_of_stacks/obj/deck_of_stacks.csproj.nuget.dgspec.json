@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\Coding Dojo\\C#\\Language Fundamentals\\OOP\\deck_of_stacks\\deck_of_stacks.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\Coding Dojo\\C#\\Language Fundamentals\\OOP\\deck_of_stacks\\deck_of_stacks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\Coding Dojo\\C#\\Language Fundamentals\\OOP\\deck_of_stacks\\deck_of_stacks.csproj",
+        "projectName": "deck_of_stacks",
+        "projectPath": "D:\\Documents\\Coding Dojo\\C#\\Language Fundamentals\\OOP\\deck_of_stacks\\deck_of_stacks.csproj",
+        "packagesPath": "C:\\Users\\ericf\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Coding Dojo\\C#\\Language Fundamentals\\OOP\\deck_of_stacks\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ericf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

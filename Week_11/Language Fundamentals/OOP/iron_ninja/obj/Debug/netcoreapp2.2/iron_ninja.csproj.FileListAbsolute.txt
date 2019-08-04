@@ -1,0 +1,11 @@
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\bin\Debug\netcoreapp2.2\iron_ninja.deps.json
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\bin\Debug\netcoreapp2.2\iron_ninja.runtimeconfig.json
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\bin\Debug\netcoreapp2.2\iron_ninja.runtimeconfig.dev.json
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\bin\Debug\netcoreapp2.2\iron_ninja.dll
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\bin\Debug\netcoreapp2.2\iron_ninja.pdb
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\obj\Debug\netcoreapp2.2\iron_ninja.csprojAssemblyReference.cache
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\obj\Debug\netcoreapp2.2\iron_ninja.csproj.CoreCompileInputs.cache
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\obj\Debug\netcoreapp2.2\iron_ninja.AssemblyInfoInputs.cache
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\obj\Debug\netcoreapp2.2\iron_ninja.AssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\obj\Debug\netcoreapp2.2\iron_ninja.dll
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\iron_ninja\obj\Debug\netcoreapp2.2\iron_ninja.pdb

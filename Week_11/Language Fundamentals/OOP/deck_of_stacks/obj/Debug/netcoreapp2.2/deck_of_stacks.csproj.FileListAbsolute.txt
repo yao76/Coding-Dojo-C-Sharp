@@ -1,0 +1,11 @@
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\bin\Debug\netcoreapp2.2\deck_of_stacks.deps.json
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\bin\Debug\netcoreapp2.2\deck_of_stacks.runtimeconfig.json
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\bin\Debug\netcoreapp2.2\deck_of_stacks.runtimeconfig.dev.json
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\bin\Debug\netcoreapp2.2\deck_of_stacks.dll
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\bin\Debug\netcoreapp2.2\deck_of_stacks.pdb
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\obj\Debug\netcoreapp2.2\deck_of_stacks.csprojAssemblyReference.cache
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\obj\Debug\netcoreapp2.2\deck_of_stacks.csproj.CoreCompileInputs.cache
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\obj\Debug\netcoreapp2.2\deck_of_stacks.AssemblyInfoInputs.cache
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\obj\Debug\netcoreapp2.2\deck_of_stacks.AssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\obj\Debug\netcoreapp2.2\deck_of_stacks.dll
+D:\Documents\Coding Dojo\C#\Language Fundamentals\OOP\deck_of_stacks\obj\Debug\netcoreapp2.2\deck_of_stacks.pdb
