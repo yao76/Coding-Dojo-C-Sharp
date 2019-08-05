@@ -1,0 +1,11 @@
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\bin\Debug\netcoreapp2.2\phone.deps.json
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\bin\Debug\netcoreapp2.2\phone.runtimeconfig.json
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\bin\Debug\netcoreapp2.2\phone.runtimeconfig.dev.json
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\bin\Debug\netcoreapp2.2\phone.dll
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\bin\Debug\netcoreapp2.2\phone.pdb
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\obj\Debug\netcoreapp2.2\phone.csprojAssemblyReference.cache
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\obj\Debug\netcoreapp2.2\phone.csproj.CoreCompileInputs.cache
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\obj\Debug\netcoreapp2.2\phone.AssemblyInfoInputs.cache
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\obj\Debug\netcoreapp2.2\phone.AssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\obj\Debug\netcoreapp2.2\phone.dll
+D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\OOP\phone\obj\Debug\netcoreapp2.2\phone.pdb
