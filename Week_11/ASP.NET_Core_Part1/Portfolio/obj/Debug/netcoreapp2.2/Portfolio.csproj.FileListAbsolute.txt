@@ -1,0 +1,14 @@
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\bin\Debug\netcoreapp2.2\Portfolio.deps.json
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\bin\Debug\netcoreapp2.2\Portfolio.runtimeconfig.json
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\bin\Debug\netcoreapp2.2\Portfolio.runtimeconfig.dev.json
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\bin\Debug\netcoreapp2.2\Portfolio.dll
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\bin\Debug\netcoreapp2.2\Portfolio.pdb
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.csprojAssemblyReference.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.csproj.CoreCompileInputs.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.RazorAssemblyInfo.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.RazorAssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.AssemblyInfoInputs.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.AssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.RazorTargetAssemblyInfo.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.dll
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.pdb
