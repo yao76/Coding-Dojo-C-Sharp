@@ -12079,11 +12079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Coding Dojo\\C#\\Week_11\\Language Fundamentals\\ASP.NET_Core_Part1\\FirstProj\\FirstProj.csproj",
+      "projectUniqueName": "D:\\Documents\\Coding Dojo\\C#\\Week_11\\ASP.NET_Core_Part1\\FirstProj\\FirstProj.csproj",
       "projectName": "FirstProj",
-      "projectPath": "D:\\Documents\\Coding Dojo\\C#\\Week_11\\Language Fundamentals\\ASP.NET_Core_Part1\\FirstProj\\FirstProj.csproj",
+      "projectPath": "D:\\Documents\\Coding Dojo\\C#\\Week_11\\ASP.NET_Core_Part1\\FirstProj\\FirstProj.csproj",
       "packagesPath": "C:\\Users\\ericf\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Coding Dojo\\C#\\Week_11\\Language Fundamentals\\ASP.NET_Core_Part1\\FirstProj\\obj\\",
+      "outputPath": "D:\\Documents\\Coding Dojo\\C#\\Week_11\\ASP.NET_Core_Part1\\FirstProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

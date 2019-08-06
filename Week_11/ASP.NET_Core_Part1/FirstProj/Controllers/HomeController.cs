@@ -1,25 +1,27 @@
 using Microsoft.AspNetCore.Mvc;
-namespace FirstProj
+using Microsoft.AspNetCore.Http;
+namespace FirstProj.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("")]
-        [HttpGet]
-        public string Index()
+        [HttpGet("")]
+        public ViewResult Index()
         {
-            return "Hello from controller";
-        }
-        [Route("hello")]
-        [HttpGet]
-        public string Hello()
-        {
-            return "Hi Again!";
+            ViewBag.Example="Hello World";
+            return View();
         }
 
-        [HttpGet("users/{username}")]
-        public string HelloUser(string username)
+        [HttpGet("projects")]
+        public RedirectToActionResult Projects()
         {
-            return $"Hello {username}";
+            System.Console.WriteLine("In projects");
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet("contact")]
+        public string Contact()
+        {
+            return "This is my Contact!";
         }
     }
 }

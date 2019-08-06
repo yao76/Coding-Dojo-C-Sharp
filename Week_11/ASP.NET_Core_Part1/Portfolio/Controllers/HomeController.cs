@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 namespace Portfolio.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
         [HttpGet("")]
         public string Index()

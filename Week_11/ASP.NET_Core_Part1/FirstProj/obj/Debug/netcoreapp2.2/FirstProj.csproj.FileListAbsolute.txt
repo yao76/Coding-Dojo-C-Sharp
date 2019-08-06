@@ -21,3 +21,26 @@ D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\ASP.NET_Core_Part1\Fir
 D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.RazorTargetAssemblyInfo.cs
 D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.Views.pdb
 D:\Documents\Coding Dojo\C#\Week_11\Language Fundamentals\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.csproj.CopyComplete
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.deps.json
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.runtimeconfig.json
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.runtimeconfig.dev.json
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.dll
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.pdb
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.Views.dll
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\bin\Debug\netcoreapp2.2\FirstProj.Views.pdb
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.csprojAssemblyReference.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.csproj.CoreCompileInputs.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.RazorAssemblyInfo.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.RazorAssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.AssemblyInfoInputs.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.AssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.TagHelpers.input.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.TagHelpers.output.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.RazorCoreGenerate.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.RazorTargetAssemblyInfo.cache
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.RazorTargetAssemblyInfo.cs
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.Views.pdb
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.dll
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.pdb
+D:\Documents\Coding Dojo\C#\Week_11\ASP.NET_Core_Part1\FirstProj\obj\Debug\netcoreapp2.2\FirstProj.csproj.CopyComplete
