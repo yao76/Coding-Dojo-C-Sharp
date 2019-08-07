@@ -17,7 +17,7 @@ namespace DojoSurveyValidation.Controllers
         }
 
         [HttpPost]
-        public IActionResult ProccessSurvey(Survey formData)
+        public IActionResult ProccessSurvey(Survey formData) // function name has to match form action
         {
             if(ModelState.IsValid)
             {
