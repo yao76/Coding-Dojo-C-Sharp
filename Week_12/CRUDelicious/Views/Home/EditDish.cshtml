@@ -1,0 +1,56 @@
+@model CRUDelicious.Models.dishes
+<div class="jumbotron">
+    <h1>Edit @ViewBag.dish.Name</h1>
+</div>
+<a href="/">Home</a>
+<div class="main">
+    <form asp-action="EditDish" asp-controller="Home" method="post">
+        <div class="form-group">
+            <!-- <span asp-validation-for="Name"></span> -->
+            <label asp-for="Chef">Chef's Name</label>
+            <span class="text-danger" asp-validation-for="Chef"></span>
+            <div class="col-5">
+                <input class="form-control" asp-for="Chef" value="@ViewBag.dish.Chef">
+            </div>
+            
+        </div>
+        <div class="form-group">
+            <label asp-for="Name">Name of Dish</label>
+            <span class="text-danger" asp-validation-for="Name"></span>
+            <div class="col-5">
+                <input class="form-control" asp-for="Name" value="@ViewBag.dish.Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Calories"># of Calories</label>
+            <span class="text-danger" asp-validation-for="Calories"></span>
+            <div class="col-5">
+                <input class="form-control" asp-for="Calories" value="@ViewBag.dish.Calories">
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Tastiness"></label>
+            <span class="text-danger" asp-validation-for="Tastiness"></span>
+            <div class="col-5">
+                <select class="form-control" asp-for="Tastiness">
+                    <option value="1" @if(ViewBag.dish.Tastiness == 1){selected}>1</option>
+                    <option value="2" @if(ViewBag.dish.Tastiness == 2){selected}>2</option>
+                    <option value="3" @if(ViewBag.dish.Tastiness == 3){selected}>3</option>
+                    <option value="4" @if(ViewBag.dish.Tastiness == 4){selected}>4</option>
+                    <option value="5" @if(ViewBag.dish.Tastiness == 5){selected}>5</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <span class="text-danger" asp-validation-for="Description"></span>
+            <div class="col-5">
+                <textarea class="form-control" asp-for="Description" value = "@ViewBag.dish.Description">@ViewBag.dish.Description</textarea>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Edit Dish</button>
+    </form>
+</div>
