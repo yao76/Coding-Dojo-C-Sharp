@@ -1,16 +1,17 @@
+@model dishes
 <a class="offset-"href="/">Home</a>
 <div class="jumbotron text-center">
     
-    <h1>@ViewBag.oneDish.Name</h1>
-    <h3>@ViewBag.oneDish.Chef</h3>
+    <h1>@Model.Name</h1>
+    <h3>@Model.Chef</h3>
 </div>
 <hr>
 
-<p>@ViewBag.oneDish.Description</p>
+<p>@Model.Description</p>
 <br>
-<p>Calories: @ViewBag.oneDish.Calories</p>
-<p>Tastiness: @ViewBag.oneDish.Tastiness</p>
+<p>Calories: @Model.Calories</p>
+<p>Tastiness: @Model.Tastiness</p>
 <hr>
-<a class="offset-3"href="/delete/@ViewBag.oneDish.CakeId"><button class="btn btn-danger">Delete</button></a>
-<a class="offset-4" href="/edit/@ViewBag.oneDish.CakeId"><button class="btn btn-warning">Edit</button></a>
+<a class="offset-3"href="/delete/@Model.CakeId"><button class="btn btn-danger">Delete</button></a>
+<a class="offset-4" href="/edit/@Model.CakeId"><button class="btn btn-warning">Edit</button></a>
 

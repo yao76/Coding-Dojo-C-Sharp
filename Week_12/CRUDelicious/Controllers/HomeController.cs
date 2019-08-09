@@ -18,10 +18,14 @@ namespace CRUDelicious.Controllers
         }
         [HttpGet("")]
         public IActionResult Index()
-        {
+        {   // All dishes
             List<dishes> AllDishes = dbContext.Dishes.ToList();
-            ViewBag.AllDishes = AllDishes;
-            return View();
+
+            // All dishes ordered by newest first
+            IEnumerable<dishes> allDishesOrdered = AllDishes.OrderByDescending(dish => dish.CreatedAt);
+            // ViewBag.allDishesOrdered = AllDishes;
+
+            return View("Index", allDishesOrdered);
         }
         [HttpGet("addDish")]
         public IActionResult New()
@@ -45,8 +49,8 @@ namespace CRUDelicious.Controllers
         public IActionResult DishInfo(int CakeId)
         {
             dishes dish = dbContext.Dishes.FirstOrDefault(d=>d.CakeId == CakeId);
-            ViewBag.oneDish = dish;
-            return View("OneDish");
+            // ViewBag.oneDish = dish;
+            return View("OneDish",dish);
         }
 
         [HttpGet("delete/{CakeId}")]
@@ -62,15 +66,15 @@ namespace CRUDelicious.Controllers
         public IActionResult ShowEditDish(int CakeId)
         {
             dishes dishToEdit = dbContext.Dishes.FirstOrDefault(d=>d.CakeId == CakeId);
-            ViewBag.dish = dishToEdit;
-            return View("EditDish");
+            // ViewBag.dish = dishToEdit;
+            return View("EditDish", dishToEdit);
         }
 
         [HttpPost("edit/{CakeId}")]
         public IActionResult EditDish(dishes formData, int CakeId)
         {
             dishes dishToEdit = dbContext.Dishes.FirstOrDefault(d=>d.CakeId == CakeId);
-            ViewBag.dish = dishToEdit;
+            // ViewBag.dish = dishToEdit;
             if(ModelState.IsValid)
             {
                 dishToEdit.Name = formData.Name;

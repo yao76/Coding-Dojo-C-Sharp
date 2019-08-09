@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model IEnumerable<dishes>
+
 
 <div class="jumbotron">
     <h1>Welcome to CRUDelicious</h1>
@@ -18,7 +20,7 @@
 
     <div class="row">
         <div class="col">
-            @foreach(var dish in ViewBag.AllDishes)
+            @foreach(var dish in Model)
             {
                 <p><a href="/@dish.CakeId">@dish.Name</a> by @dish.Chef</p>
             }
