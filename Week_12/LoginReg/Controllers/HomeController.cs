@@ -81,7 +81,7 @@ namespace LoginReg.Controllers
                     return View("Login");
                 }
                 
-                HttpContext.Session.SetInt32("UserId", (int)userInDb.UserId);
+                HttpContext.Session.SetInt32("UserId", userInDb.UserId);
                 System.Console.WriteLine(HttpContext.Session.GetInt32("UserId"));
 
                 return RedirectToAction("Success");
@@ -94,18 +94,18 @@ namespace LoginReg.Controllers
         public IActionResult Success()
         {
 
-            int? User_id = HttpContext.Session.GetInt32("UserId");
-            Console.WriteLine(new string('*', 80));
-            System.Console.WriteLine(HttpContext.Session.GetInt32("UserId"));
-            // HttpContext.Session.GetInt32("UserId")
-            if(User_id == 0)
-            {
-                return RedirectToAction("Register");
-            } else {
-                return View();
-            }
+            // int? User_id = HttpContext.Session.GetInt32("UserId");
+            // Console.WriteLine(new string('*', 80));
+            // System.Console.WriteLine(HttpContext.Session.GetInt32("UserId"));
+            // // HttpContext.Session.GetInt32("UserId")
+            // if(User_id == 0)
+            // {
+            //     return RedirectToAction("Register");
+            // } else {
+            //     return View();
+            // }
 
-            // return View();
+            return View();
             
         }
 
