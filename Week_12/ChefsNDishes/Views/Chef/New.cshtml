@@ -1,0 +1,35 @@
+@model ChefsNDishes.Models.Chef
+
+<div class="jumbotron">
+    <h1>Add a Chef!</h1>
+</div>
+<a href="/">Home</a>
+
+<form asp-action="NewChef" asp-controller="Chef" method="post">
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <span class="text-danger" asp-validation-for="FirstName"></span>
+        <div class="col-5">
+            <input asp-for="FirstName" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <span class="text-danger" asp-validation-for="LastName"></span>
+        <div class="col-5">
+            <input asp-for="LastName" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BirthDate"></label>
+        <span asp-validation-for="BirthDate" class="text-danger"></span>
+        <div class="col-5">
+            <input asp-for="BirthDate" class="form-control">
+        </div>
+    </div>
+    <div>
+        <input type="submit" class="btn btn-primary" value="Add Chef">
+    </div>
+
+</form>
