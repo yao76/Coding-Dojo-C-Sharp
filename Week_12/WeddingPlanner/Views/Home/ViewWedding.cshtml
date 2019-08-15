@@ -1,0 +1,12 @@
+@model Wedding
+<h1>
+    @Model.WedderOne and @Model.WedderTwo's Wedding
+</h1>
+<div class="main">
+    <h3>@Model.WeddingDate.ToString("MMMM dd yyyy")</h3>
+    <h3>Guests:</h3>
+    @foreach(var guest in @Model.Guests)
+    {
+        <p>@guest.AssociatedAttendee.FirstName</p>
+    }
+</div>

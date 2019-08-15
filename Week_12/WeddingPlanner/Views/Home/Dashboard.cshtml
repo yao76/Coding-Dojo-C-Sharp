@@ -1,0 +1,51 @@
+@model List<Wedding>
+@using Microsoft.AspNetCore.Http;
+@using System.Collections.Generic;
+<div class="row d-flex justify-content-between" >
+    <h1>Dashboard Welcome @ViewBag.CurrUser.FirstName</h1>
+    <a href="/logout">Logout</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Wedding</th>
+        <th scope="col">Date</th>
+        <th scope="col">Guest</th>
+        <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var wedding in Model)
+        {
+            <tr>
+                <td><a href="/wedding/@wedding.WeddingId">@wedding.WedderOne & @wedding.WedderTwo</a></td>
+                <td>@wedding.WeddingDate.ToString("MMMM dd yyyy ")</td>
+                <td>@wedding.Guests.Count</td>
+            
+                @if(@wedding.UserId == @Context.Session.GetInt32("UserId"))
+                {
+                    <td><a href="/dashboard/delete/@wedding.WeddingId">Delete</a></td>
+                }
+                else
+                {
+
+                    @if(@wedding.Guests.Any(u=>u.UserId == @Context.Session.GetInt32("UserId")))
+                    {
+                        <td><a href="/rsvp/@wedding.WeddingId">Un-RSVP</a></td>
+                    }
+                    else 
+                    {
+                        <td><a href="/rsvp/@wedding.WeddingId">RSVP</a></td>
+                    }
+                    
+                }
+            
+                
+                
+                
+
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/new"><button class="btn btn-primary">New Wedding</button></a>
