@@ -1,0 +1,46 @@
+@model CustomerViewModel
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav justify-content-between">
+            <a class="nav-item nav-link" href="/">Dashboard</a>
+            <a class="nav-item nav-link" href="/products">Products</a>
+            <a class="nav-item nav-link" href="/orders">Orders</span> </a>
+            <a class="nav-item nav-link active" href="/customers">Customers<span class="sr-only">(current)</span></a>
+        </div>
+    </div>
+</nav>
+<h3><u>Add a new customer</u></h3>
+<form asp-action="AddCustomer" asp-controller="Home" method="post">
+    <div class="form-group row">
+        <label asp-for="@Model.NewCustomer.FirstName" class="col-2 col-form-label"></label>
+        <input class="form-control col-4" asp-for="@Model.NewCustomer.FirstName">
+        <span asp-validation-for="@Model.NewCustomer.FirstName"></span>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label">Last Name</label>
+        <input class="form-control col-4" asp-for="@Model.NewCustomer.LastName">
+        <span asp-validation-for="@Model.NewCustomer.LastName"></span>
+    </div>
+    <button class="btn btn-primary" type="submit">Add</button>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Created Date</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var customer in Model.AllCustomers)
+        {
+            <tr>
+                <td>@customer.FullName</td>
+                <td>@customer.CreatedAt.ToString("MMMM dd yyyy")</td>
+                <td><a href="/remove/@customer.CustomerId"><button class="btn btn-danger">Remove</button></a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

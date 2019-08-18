@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IndexVewModel
+<head>
+    <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav justify-content-between">
+            <a class="nav-item nav-link active" href="/">Dashboard <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/products">Products</a>
+            <a class="nav-item nav-link" href="/orders">Orders</a>
+            <a class="nav-item nav-link" href="/customers">Customers</a>
+        </div>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col-2">
+        <form class="form-group my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success mt-2" type="submit">Search</button>
+        </form>
+    </div>
+    <div class="col">
+        <div class="row">
+            @foreach(var product in Model.RecentProducts)
+            {
+                <div class="card border-dark mx-2 mb-3" style="max-width:173px;">
+                    <img class="card-img-top" src="@product.Url" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">@product.Name</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">(@product.Quantity Left)</p>
+                    </div>
+                </div>
+            }
+        </div>
+        <a class="offset-5" href="/products">Show more...</a>
+    </div>
+</div>
+
+<div class="row offset-2">
+    <div class="col">
+        <h3><u>Recent Orders</u></h3>
+        @foreach(var order in @Model.RecentOrders)
+        {
+            if(@order.Quantity == 1)
+            {
+
+                <p>@order.Customer.FullName ordered @order.Quantity @order.Product.Name ... (@order.CreatedAt.ToString("hh:mm tt"))</p>
+            } else {
+                <p>@order.Customer.FullName ordered @order.Quantity @order.Product.Name<span>s ...  (@order.CreatedAt.ToString("hh:mm tt"))</span></p>
+            }
+        }
+        <a class="offset-5" href="/orders">Show all orders...</a>
+    </div>
+
+</div>
+<div class="row offset-2">
+    <div class="col">
+        <h3><u>New Customers</u></h3>
+        @foreach(var customer in @Model.RecentCustomers)
+        {
+            <p>@customer.FullName joined the store</p>
+        }
+        <a class="offset-5" href="/customers">Show all customers...</a>
+    </div>
+</div>

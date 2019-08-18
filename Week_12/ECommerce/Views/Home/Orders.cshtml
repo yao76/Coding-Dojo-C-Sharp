@@ -1,0 +1,60 @@
+@model OrderViewModel
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav justify-content-between">
+            <a class="nav-item nav-link" href="/">Dashboard</a>
+            <a class="nav-item nav-link" href="/products">Products</a>
+            <a class="nav-item nav-link active" href="/orders">Orders  <span class="sr-only">(current)</span> </a>
+            <a class="nav-item nav-link" href="/customers">Customers</a>
+        </div>
+    </div>
+</nav>
+<h3><u>Add a new order</u></h3>
+<form asp-action="AddOrder" asp-controller="Home" method="post">
+    <div class="formgroup row mb-3">
+        <label class="col-form-label mr-1">Customer</label>
+        <select class="form-control col-4" asp-for="@Model.NewOrder.CustomerId">
+            @foreach(Customer c in Model.AllCustomers)
+            {
+                <option value="@c.CustomerId">@c.FullName</option>
+            }
+        </select>
+    </div>
+
+    <div class="formgroup row mb-3">
+        <label class="col-form-label mr-3">Product</label>
+        <select class="form-control col-4" asp-for="@Model.NewOrder.ProductId">
+            @foreach(Product p in Model.AllProducts)
+            {
+                <option value="@p.ProductId">@p.Name</option>
+            }
+        </select>
+        <label class="col-form-label ml-5 mr-1" >Quantity</label>
+        <input class="form-control col-2" type="number" asp-for="@Model.NewOrder.Quantity">
+        <span asp-validation-for="@Model.NewOrder.Quantity"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Order</button>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Product</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var order in Model.AllOrders)
+        {
+            <tr>
+                <td>@order.Customer.FullName</td>
+                <td>@order.Product.Name</td>
+                <td>@order.Quantity</td>
+                <td>@order.CreatedAt.ToString("MMMM dd yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
